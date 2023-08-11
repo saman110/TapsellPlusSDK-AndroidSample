@@ -4,6 +4,7 @@ buildscript {
 
     repositories {
         mavenCentral()
+        mavenLocal()
         jcenter()
         google()
     }
@@ -20,6 +21,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        mavenLocal()
         maven {
             url  "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea"
         }
